@@ -40,3 +40,23 @@ input, button {
 #generate-btn:hover {
     background-color: #0056b3;
 }
+
+  /* Mobile specific styles */
+  @media screen and (max-width: 480px) {
+    body {
+        padding: 0 20px;
+    }
+
+    .container {
+        max-width: 100%;
+    }
+
+    #password-length, #password-output {
+        box-sizing: border-box;
+    }
+
+    #generate-btn {
+        width: 100%;
+        margin-top: 10px;
+    }
+}
